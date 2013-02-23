@@ -2,8 +2,10 @@
 Contributors: pgogy
 Tags: elearning, learning, education, content creation, simile, timelines
 Requires at least: 3.1
-Tested up to: 3.4
-Stable tag: 0.3
+Tested up to: 3.5
+Stable tag: 0.4
+
+Makes a Simile Timeline in WOrdPress
 
 == Description ==
 The Simile Timeline plugin was developed as part of the JISC Funded World War One Centenary project led by the University of Oxford (http://http://ww1centenary.oucs.ox.ac.uk/). 
@@ -14,6 +16,10 @@ Although the editor doesn't support all features, it makes timeline creation mor
 
 The interface is still relatively complicated, and it is likely we will improve this code to help make this part simpler - this tool was written to help us display timelines, and so it is written for us to use. We've shared the plugin so as to help others, but please remember that it isn't a trivial piece of work to create a timeline. 
 
+Please see http://www.pgogy.com and http://www.pgogy.com/code/groups/wordpress/simile-timeline-display/ for support queries.
+
+[vimeo https://vimeo.com/60042535]
+
 == Installation ==
 
 1. Upload the folder to the `/wp-content/plugins/` directory - or download from the WordPress Site
@@ -21,7 +27,7 @@ The interface is still relatively complicated, and it is likely we will improve 
 
 == Frequently Asked Questions ==
 
-No Questions have been asked yet. Please see http://www.pgogy.com/code/xerte-online/
+No Questions have been asked yet. Please see http://www.pgogy.com/code/groups/wordpress/simile-timeline-display/
 
 == Screenshots ==
 
@@ -30,6 +36,9 @@ No Questions have been asked yet. Please see http://www.pgogy.com/code/xerte-onl
 3. Accessing the timeline menu
 
 == Changelog ==
+
+= 0.4 =
+Neatened a few things up
 
 = 0.3 =
 Fixed some bugs and tested in 3.4

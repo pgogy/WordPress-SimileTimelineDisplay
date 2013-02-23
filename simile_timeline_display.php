@@ -3,9 +3,10 @@
 	/*
 	Plugin Name: Simile timeline display
 	Description: Simile timeline display allowed for an MIT Simile timeline to be displayed on a WordPress site
-	Version: 0.3
+	Version: 0.4
 	Author: pgogy
 	Author URI: http://www.pgogy.com
+	Plugin URI: http://www.pgogy.com/code/groups/wordpress/simile-timeline-display/
 	*/
 
 	require_once("simile_timeline_display_editor.php");

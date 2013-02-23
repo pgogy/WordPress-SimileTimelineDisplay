@@ -98,6 +98,7 @@ function simile_timeline_edit_zones(){
 			<label>Stop</label><input type="text" length="4" style="width:100%" name="simile_zone_stop_<?PHP echo $counter; ?>" value="<?PHP echo $zone['simile_zone_stop_' . $counter];  ?>" /><br />
 			<label>Width</label><input type="text" length="4" style="width:100%" name="simile_zone_width_<?PHP echo $counter; ?>" value="<?PHP echo $zone['simile_zone_width_' . $counter];  ?>" /><br />
 			<label>Unit of Time</label>
+			<?PHP echo $zone['simile_zone_unit_' . $counter] . "******"; ?>
 			<select name="simile_zone_unit_<?PHP echo $counter; ?>">
 				<option value="0" <?PHP if($zone['simile_zone_unit_' . $counter]==0){ echo " selected "; } ?> >Hour</option>
 				<option value="1" <?PHP if($zone['simile_zone_unit_' . $counter]==1){ echo " selected "; } ?> >Day</option>
