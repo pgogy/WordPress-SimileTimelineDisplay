@@ -10,7 +10,7 @@ function simile_timeline_display_javascript(){
 
 	if($post->post_type=="simile_timeline"){
 	
-		wp_enqueue_script( "simile_timeline_display", "http://static.simile.mit.edu/timeline/api-2.3.0/timeline-api.js?bundle=true");
+		wp_enqueue_script( "simile_timeline_display", plugins_url() . "/simile-timeline-display/js/simile/timeline-api.js?bundle=true");
 		
 	}
 				
@@ -117,8 +117,6 @@ function simile_timeline_display($content)
 				
 				}
 				
-				print_r($data['zones'][$y]);
-				
 				?>
 				
 				var bandInfos = [
@@ -148,7 +146,7 @@ function simile_timeline_display($content)
 						intervalPixels: <?PHP echo $data['zones'][$x]['simile_zone_interval_pixels_' . ($x+1)]; ?>,
 						eventSource:    eventSource<?PHP echo $x; ?>,
 						date:           d<?PHP echo $x; ?>,
-						theme:          theme<?PHP echo $x; ?>,
+						theme:          theme<?PHP echo ($x); ?>,
 						layout:         'original'  // original, overview, detailed
 					})
 					
@@ -194,7 +192,7 @@ function simile_timeline_display($content)
 										endLabel:   "<?PHP echo $data['zone_labels'][$x]['simile_zone_label_endlabel_' . ($x+1)]; ?>",
 										color:      "<?PHP echo $data['zone_labels'][$x]['simile_zone_label_colour_' . ($x+1)]; ?>",
 										opacity:    <?PHP echo $data['zone_labels'][$x]['simile_zone_label_opacity_' . ($x+1)]; ?>,
-										theme:      theme1
+										theme:      theme0
 									})
 								
 								<?PHP

@@ -3,7 +3,7 @@ Contributors: pgogy
 Tags: elearning, learning, education, content creation, simile, timelines
 Requires at least: 3.1
 Tested up to: 3.5
-Stable tag: 0.4
+Stable tag: 0.5
 
 Makes a Simile Timeline in WOrdPress
 
